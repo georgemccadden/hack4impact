@@ -1,7 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
-export default function Nav() {
+export default function Navbar() {
   return (
     <div>
       <h6>Article Heading</h6>

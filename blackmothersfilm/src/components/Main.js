@@ -1,5 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import tallRectangle from "../assets/rectangle.png";
+import wideRectangle from "../assets/wide-rectangle.png";
 
 export default function Main() {
   return (
@@ -13,6 +14,9 @@ export default function Main() {
         hendrerit. Vivamus hendrerit, ante ut efficitur maximus, leo magna
         venenatis augue
       </p>
+      <img src={tallRectangle} />
+      <img src={wideRectangle} />
+      <img src={wideRectangle} />
     </div>
   );
 }
