@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./style.css";
 
-// Timeline Components
-import Header from "./components/Header";
-ReactDOM.render(<Header />, document.getElementById("root"));
+import App from "./App";
+
+ReactDOM.render(<App />, document.getElementById("root"));
