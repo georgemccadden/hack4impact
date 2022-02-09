@@ -4,7 +4,7 @@ import rightArrow from "../assets/right-arrow.png";
 
 export default function Header() {
   return (
-    <div>
+    <div id="header">
       <h1 className="headerTitle">Black Mothers:</h1>
       <button className="left-arrow">
         <img src={leftArrow} />
