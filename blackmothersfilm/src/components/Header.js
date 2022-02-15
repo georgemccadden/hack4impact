@@ -15,7 +15,7 @@ export default class Header extends React.Component {
         <button className="right-arrow">
           <img src={rightArrow} />
         </button>
-        <h2>The Timeline</h2>
+        <h2 className="timelineTitle">The Timeline</h2>
       </div>
     );
   }
